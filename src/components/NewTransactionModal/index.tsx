@@ -42,7 +42,7 @@ export function NewTransactionModal({ isNewTransactionModalOpen, handleCloseNewT
                 type="button"
                 onClick={handleCloseNewTransactionModal}
                 className="react-modal-close">
-                    <img src={close} alt="Fechar modal" 
+                    <img src={closeImg} alt="Fechar modal" 
             />
             </button>
 
