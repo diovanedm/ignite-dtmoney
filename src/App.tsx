@@ -9,6 +9,7 @@ Modal.setAppElement("#root")
 
 export function App() {
 
+    // Modal -------------------------------------------------------------------------
     const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
 
     function handleOpenNewTransactionModal() {
@@ -18,7 +19,7 @@ export function App() {
     function handleCloseNewTransactionModal() {
         setIsNewTransactionModalOpen(false);
     }
-    
+    // X Modal ------------------------------------------------------------------------
     return (
         <>
 
