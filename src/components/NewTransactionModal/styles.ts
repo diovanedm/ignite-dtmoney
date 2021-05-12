@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {darken} from "polished";
-export const Container = styled.div`
+export const Container = styled.form`
     color: var(--text-title);
     font-size: 1.5rem;
     margin-bottom: 2rem;
