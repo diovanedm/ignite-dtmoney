@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import { Container } from "./styles";
 import  income  from "../../assets/income.svg"
 import  outcome  from "../../assets/outcome.svg"
